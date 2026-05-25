@@ -8,6 +8,9 @@ This project visualizes cafe locations and their changes using geographic data a
 I will keep researching and developing this project.
 I want to improve the map and add more data over time.
 
+(Development Notes)
+The map was inserted on May 24 as part of the project update.
+
 Error
 5/22:I have error with python program in computer so I install again, but it still not working so I turn off the App execution Aliases(python3,python3)
 5/24:ValueError: Location should consist of two numerical values, but None is not convertible to float.
