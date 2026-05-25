@@ -7,4 +7,8 @@ This project visualizes cafe locations and their changes using geographic data a
 
 Error
 5/22:I have error with python program in computer so I install again, but it still not working so I turn off the App execution Aliases(python3,python3)
-5/24:
+5/24:ValueError: Location should consist of two numerical values, but None is not convertible to float.
+example:"lat": None,
+"lon": None (wrong)
+"lat": 34.3851,
+"lon": -118.5734(right)
