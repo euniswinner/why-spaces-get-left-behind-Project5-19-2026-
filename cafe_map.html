@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_58e060f26879ff8572d87a10bd3e965c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_58e060f26879ff8572d87a10bd3e965c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_58e060f26879ff8572d87a10bd3e965c = L.map(
+                "map_58e060f26879ff8572d87a10bd3e965c",
+                {
+                    center: [34.386, -118.5735],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_dc015ccfde7bf40b8156e446eb576198 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_dc015ccfde7bf40b8156e446eb576198.addTo(map_58e060f26879ff8572d87a10bd3e965c);
+        
+    
+            var circle_marker_10d3f0461154b4566044b679870789d3 = L.circleMarker(
+                [34.3839, -118.5738],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_58e060f26879ff8572d87a10bd3e965c);
+        
+    
+        var popup_1d135556c1ece3d5c13758bb1e3dd9ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1cc852d87379469b20f9e04f5f99c4cc = $(`<div id="html_1cc852d87379469b20f9e04f5f99c4cc" style="width: 100.0%; height: 100.0%;">Tous Les Jours Stevenson Ranch<br>24935 Pico Canyon Rd<br>Opened: 2020</div>`)[0];
+                popup_1d135556c1ece3d5c13758bb1e3dd9ea.setContent(html_1cc852d87379469b20f9e04f5f99c4cc);
+            
+        
+
+        circle_marker_10d3f0461154b4566044b679870789d3.bindPopup(popup_1d135556c1ece3d5c13758bb1e3dd9ea)
+        ;
+
+        
+    
+    
+            var circle_marker_32825deee90acaf5c989181b66226d87 = L.circleMarker(
+                [34.3875, -118.5735],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_58e060f26879ff8572d87a10bd3e965c);
+        
+    
+        var popup_9b4f7f31adf4ad8fb705f69779e9c1d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_adc2909d6974d44de18039e390ae8e75 = $(`<div id="html_adc2909d6974d44de18039e390ae8e75" style="width: 100.0%; height: 100.0%;">Urbane Cafe<br>25916 The Old Rd<br>Opened: 2012</div>`)[0];
+                popup_9b4f7f31adf4ad8fb705f69779e9c1d5.setContent(html_adc2909d6974d44de18039e390ae8e75);
+            
+        
+
+        circle_marker_32825deee90acaf5c989181b66226d87.bindPopup(popup_9b4f7f31adf4ad8fb705f69779e9c1d5)
+        ;
+
+        
+    
+    
+            var circle_marker_a2be0ccd673073b845f4ddebcd78ff09 = L.circleMarker(
+                [34.3873, -118.5732],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_58e060f26879ff8572d87a10bd3e965c);
+        
+    
+        var popup_229f7170d609e46a84e8057c6191b8d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bdbd35576e4b03b3d43a506435acbb0d = $(`<div id="html_bdbd35576e4b03b3d43a506435acbb0d" style="width: 100.0%; height: 100.0%;">Wushiland Boba Valencia<br>25914 The Old Rd<br>Opened: 2023</div>`)[0];
+                popup_229f7170d609e46a84e8057c6191b8d9.setContent(html_bdbd35576e4b03b3d43a506435acbb0d);
+            
+        
+
+        circle_marker_a2be0ccd673073b845f4ddebcd78ff09.bindPopup(popup_229f7170d609e46a84e8057c6191b8d9)
+        ;
+
+        
+    
+    
+            var circle_marker_dbeb4b862a4aaaffd570421e64fba533 = L.circleMarker(
+                [34.3837, -118.5735],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_58e060f26879ff8572d87a10bd3e965c);
+        
+    
+        var popup_9e22e3a769cc53ef5ec557110a9c5294 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_294064bef74ec1e4a36045a90dda03b4 = $(`<div id="html_294064bef74ec1e4a36045a90dda03b4" style="width: 100.0%; height: 100.0%;">San Fernando Coffee Company<br>24921 Pico Canyon Rd<br>Opened: 2021</div>`)[0];
+                popup_9e22e3a769cc53ef5ec557110a9c5294.setContent(html_294064bef74ec1e4a36045a90dda03b4);
+            
+        
+
+        circle_marker_dbeb4b862a4aaaffd570421e64fba533.bindPopup(popup_9e22e3a769cc53ef5ec557110a9c5294)
+        ;
+
+        
+    
+    
+            var circle_marker_72a97499a3c33d69d45bf46349f5c9a2 = L.circleMarker(
+                [34.3848, -118.5718],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_58e060f26879ff8572d87a10bd3e965c);
+        
+    
+        var popup_a4ab0f5364168b6bd1ce495fec93878f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2cc9b7d03d5f4af121e456946e7771bf = $(`<div id="html_2cc9b7d03d5f4af121e456946e7771bf" style="width: 100.0%; height: 100.0%;">Starbucks (Westridge Village Center)<br>25720 The Old Rd<br>Opened: 2018</div>`)[0];
+                popup_a4ab0f5364168b6bd1ce495fec93878f.setContent(html_2cc9b7d03d5f4af121e456946e7771bf);
+            
+        
+
+        circle_marker_72a97499a3c33d69d45bf46349f5c9a2.bindPopup(popup_a4ab0f5364168b6bd1ce495fec93878f)
+        ;
+
+        
+    
+    
+            var circle_marker_4d13c1dd7edfd0e8da6130cb145c93aa = L.circleMarker(
+                [34.3815, -118.573],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_58e060f26879ff8572d87a10bd3e965c);
+        
+    
+        var popup_7f954b9ad949b8ac09b01bf0859c8e9b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_045a1052ad0fac0addb3dfa4c8f925d2 = $(`<div id="html_045a1052ad0fac0addb3dfa4c8f925d2" style="width: 100.0%; height: 100.0%;">Starbucks (25289 The Old Rd)<br>25289 The Old Rd<br>Opened: 2016</div>`)[0];
+                popup_7f954b9ad949b8ac09b01bf0859c8e9b.setContent(html_045a1052ad0fac0addb3dfa4c8f925d2);
+            
+        
+
+        circle_marker_4d13c1dd7edfd0e8da6130cb145c93aa.bindPopup(popup_7f954b9ad949b8ac09b01bf0859c8e9b)
+        ;
+
+        
+    
+    
+            var circle_marker_6ce9397a63bc5b733677aa66235b77cc = L.circleMarker(
+                [34.386, -118.5742],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_58e060f26879ff8572d87a10bd3e965c);
+        
+    
+        var popup_3868db952d3a4519303ba160dca05afe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff94c396a8225851c803cef0c1dfb3ad = $(`<div id="html_ff94c396a8225851c803cef0c1dfb3ad" style="width: 100.0%; height: 100.0%;">Starbucks (Inside Vons)<br>25850 The Old Rd<br>Opened: 2015</div>`)[0];
+                popup_3868db952d3a4519303ba160dca05afe.setContent(html_ff94c396a8225851c803cef0c1dfb3ad);
+            
+        
+
+        circle_marker_6ce9397a63bc5b733677aa66235b77cc.bindPopup(popup_3868db952d3a4519303ba160dca05afe)
+        ;
+
+        
+    
+</script>
+</html>
