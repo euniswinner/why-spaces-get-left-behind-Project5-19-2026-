@@ -1,9 +1,9 @@
 import folium
 
-# 지도 중심 (Stevenson Ranch 근처)
+
 m = folium.Map(location=[34.3860, -118.5735], zoom_start=14)
 
-# Stevenson Ranch 주변 카페 리스트 (예시 좌표 포함)
+
 cafes = [
     {
         "name": "Tous Les Jours Stevenson Ranch",
@@ -56,7 +56,7 @@ cafes = [
     }
 ]
 
-# 연도별 색상 설정
+
 colors = {
     2012: "purple",
     2015: "red",
@@ -67,7 +67,7 @@ colors = {
     2023: "brown"
 }
 
-# 카페 마커 추가
+
 for cafe in cafes:
     folium.CircleMarker(
         location=[cafe["lat"], cafe["lon"]],
@@ -80,6 +80,6 @@ for cafe in cafes:
         weight=2
     ).add_to(m)
 
-# 지도 저장
+
 m.save("cafe_map.html")
 print(" cafe_map.html created successfully.")
