@@ -19,3 +19,4 @@ example:"lat": None,
 "lat": 34.3851,
 "lon": -118.5734(right)
 5/25:Added two more cafe
+5/25:research about cafe
