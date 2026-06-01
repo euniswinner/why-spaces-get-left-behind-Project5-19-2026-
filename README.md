@@ -1,9 +1,9 @@
 This project is using with AI.
-I have interesting about Geography so I start this project in 5/19/2026.
+I have always been fascinated by geography, and on May 19, 2026, I launched this project to explore the intersection of location data and urban life.
 
-I love visiting cafes, and I became curious about where my favorite cafes are located in my area.  
-While thinking about this, I also wondered which parts of the region have more cafes and how the distribution has changed over time.  
-This project visualizes cafe locations and their changes using geographic data and interactive maps.
+My passion for visiting local cafés sparked a deeper curiosity: Where exactly are my favorite spots located, and what does the broader distribution look like across the region? Beyond just mapping them, I want to understand the "why" behind these patterns. I am particularly interested in whether areas with a high density of cafés share specific regional characteristics—such as proximity to transit hubs, demographic trends, or unique commercial zoning—that drive their development.
+
+This project visualizes café locations and tracks how their distribution has evolved over time using geographic data and interactive maps. By analyzing these spatial patterns, I aim to uncover the underlying relationship between a neighborhood's geography and its café culture.
 
 I will keep researching and developing this project.
 I want to improve the map and add more data over time.
