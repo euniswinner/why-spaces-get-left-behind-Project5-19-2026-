@@ -20,3 +20,4 @@ example:"lat": None,
 "lon": -118.5734(right)
 5/25:Added two more cafe.
 5/25:research about cafe.
+6/2:add code in visual studio(not in guithub)
