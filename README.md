@@ -21,3 +21,4 @@ example:"lat": None,
 5/25:Added two more cafe.
 5/25:research about cafe.
 6/2:add code in visual studio(not in guithub)
+6/3:fixed error(value, index)
