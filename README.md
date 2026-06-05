@@ -8,7 +8,7 @@ This project visualizes café locations and tracks how their distribution has ev
 I will keep researching and developing this project.
 I want to improve the map and add more data over time.
 
-(Development Notes)
+Development Notes
 The map was inserted on May 24 as part of the project update.
 
 Error
