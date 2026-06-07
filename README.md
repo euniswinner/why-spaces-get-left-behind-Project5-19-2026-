@@ -5,11 +5,10 @@ My passion for visiting local cafés sparked a deeper curiosity: Where exactly a
 
 This project visualizes café locations and tracks how their distribution has evolved over time using geographic data and interactive maps. By analyzing these spatial patterns, I aim to uncover the underlying relationship between a neighborhood's geography and its café culture.
 
-I will keep researching and developing this project.
-I want to improve the map and add more data over time.
+This project is actively developed in collaboration with AI. From troubleshooting complex code and debugging technical errors to conducting spatial research and analyzing regional patterns, AI serves as an essential partner in refining the project’s data structure and visualization capabilities.
 
-Development Notes
-The map was inserted on May 24 as part of the project update.
+Future Goals
+I will keep researching and developing this project. My goal is to continuously improve the interactive map, integrate more sophisticated geographic datasets, and deepen the analysis of how local urban environments shape café culture.
 
 Error
 5/22:I have error with python program in computer so I install again, but it still not working so I turn off the App execution Aliases(python3,python3)
