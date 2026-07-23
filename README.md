@@ -1,5 +1,5 @@
 This project is using with AI.
-I have always been fascinated by geography, and on May 19, 2026, I launched this project to explore the intersection of location data and urban life.
+I have always been fascinated by geography, and on May 19, 2026, I launched this project to explore the intersection of location data and urban life
 
 My passion for visiting local cafés sparked a deeper curiosity: Where exactly are my favorite spots located, and what does the broader distribution look like across the region? Beyond just mapping them, I want to understand the "why" behind these patterns. I am particularly interested in whether areas with a high density of cafés share specific regional characteristics—such as proximity to transit hubs, demographic trends, or unique commercial zoning—that drive their development.
 
@@ -13,7 +13,7 @@ I will keep researching and developing this project. My goal is to continuously 
 Error
 5/22:I have error with python program in computer so I install again, but it still not working so I turn off the App execution Aliases(python3,python3)
 5/24:ValueError: Location should consist of two numerical values, but None is not convertible to float.
-example:"lat": None,
+example:"lat": None
 "lon": None (wrong)
 "lat": 34.3851,
 "lon": -118.5734(right)
