@@ -1,24 +1,33 @@
-This project is using with AI.
-I have always been fascinated by geography, and on May 19, 2026, I launched this project to explore the intersection of location data and urban life
+# Why Spaces Get Left Behind
 
-My passion for visiting local cafés sparked a deeper curiosity: Where exactly are my favorite spots located, and what does the broader distribution look like across the region? Beyond just mapping them, I want to understand the "why" behind these patterns. I am particularly interested in whether areas with a high density of cafés share specific regional characteristics—such as proximity to transit hubs, demographic trends, or unique commercial zoning—that drive their development.
+## Motivation
+I've always been fascinated by geography. On May 19, 2026, I started this 
+project to explore the connection between location data and everyday urban 
+life, starting with something personal: my favorite cafés.
 
-This project visualizes café locations and tracks how their distribution has evolved over time using geographic data and interactive maps. By analyzing these spatial patterns, I aim to uncover the underlying relationship between a neighborhood's geography and its café culture.
+I wanted to know exactly where my go-to spots were located, and what the 
+broader pattern looked like across the region. Mapping them was just the 
+starting point — the real question I got curious about was the "why" 
+behind these patterns. Do areas with a high density of cafés share traits 
+like proximity to transit, foot traffic, or specific zoning? That question 
+is what pulled me from casual mapping into real spatial analysis.
 
-This project is actively developed in collaboration with AI. From troubleshooting complex code and debugging technical errors to conducting spatial research and analyzing regional patterns, AI serves as an essential partner in refining the project’s data structure and visualization capabilities.
+## What This Project Does
+The project visualizes café locations and tracks how their distribution 
+looks across the region using geographic data and an interactive map 
+(cafe_map.html), built with Python and Folium.
 
-Future Goals
-I will keep researching and developing this project. My goal is to continuously improve the interactive map, integrate more sophisticated geographic datasets, and deepen the analysis of how local urban environments shape café culture.
+## Process
+This was my first time building anything with geographic coordinates, and 
+I ran into real problems — coordinates that came back as null, environment 
+issues with my Python install, values that wouldn't parse. Working through 
+those errors was most of the actual learning here. I used AI as a tool to 
+help debug specific errors and to learn spatial libraries I hadn't used 
+before, but the questions I was trying to answer, the data I chose to 
+include, and the interpretation of the patterns were mine.
 
-Error
-5/22:I have error with python program in computer so I install again, but it still not working so I turn off the App execution Aliases(python3,python3)
-5/24:ValueError: Location should consist of two numerical values, but None is not convertible to float.
-example:"lat": None
-"lon": None (wrong)
-"lat": 34.3851,
-"lon": -118.5734(right)
-5/25:Added two more cafe.
-5/25:research about cafe.
-6/2:add code in visual studio(not in guithub)
-6/3:fixed error(value, index)
-8/10:Done
+## Future Goals
+I want to keep developing this — adding a larger dataset, comparing café 
+density against transit and zoning data, and eventually connecting this 
+kind of spatial pattern analysis to environmental and infrastructure 
+questions, which is the direction I want to take in engineering.
